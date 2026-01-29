@@ -2,7 +2,7 @@
 import mongoose from "mongoose"
 import express from "express"
 import shortid from "shortid"
-import URL from './models/url.js'
+import urlSchema from "../models/url"
 // now it has to fetch the schema so it will be an async function
 const shortener = async (req,res)=>{
     try{
